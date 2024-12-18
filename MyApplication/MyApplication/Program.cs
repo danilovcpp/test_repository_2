@@ -1,5 +1,9 @@
 ﻿string name = Console.ReadLine();
 
-Console.WriteLine("Hello, " + name);
+
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine("Hello, " + name);
+}
 
 Console.ReadLine();
